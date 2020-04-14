@@ -30,9 +30,12 @@ selection_sort(num)
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
     for i in range( len(arr) - 1):
-        for j in range( len(arr) -1 -i):
+        # length of the list  - 1 because the last item is not iterable.
 
-            if arr[j] > arr[j+1]:
+        for j in range( len(arr) -1):
+            # make a nested for loop
+            #print(arr)
+            if arr[j] > arr[j+1]: # if the current index is greater than the index next to it, swap them.
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
