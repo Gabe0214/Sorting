@@ -8,7 +8,7 @@ def selection_sort(arr):
         #print(arr[i])
         # TO-DO: find next smallest element
         # (hint, can do in 3 loc)
-        for j in range(i + 1, len(arr)):
+        for j in range(i+1, len(arr)):
             if arr[smallest_index] > arr[j]:
                 smallest_index = j
                 # print(arr[smallest_index])
@@ -21,17 +21,25 @@ def selection_sort(arr):
     return arr
 
 
-num = [8, 1, 9, 4, 12, 32, 15, 7]
+num = [8, 1, 9, 4, 12, 32, 15, 7, 55, 100, 11, 3]
 
 
 
 selection_sort(num)
-print(num)
+
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
+    for i in range( len(arr) - 1):
+        for j in range( len(arr) -1 -i):
 
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
+
+num_2 = [25, 12, 7, 2, 36, 55, 18, 22]
+
+print(bubble_sort(num_2))
 
 # STRETCH: implement the Count Sort function below
 def count_sort( arr, maximum=-1 ):
