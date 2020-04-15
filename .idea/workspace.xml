@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/recursive_sorting/recursive_sorting.py" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/src/recursive_sorting/recursive_sorting.py" line="41" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6bd6e48-2263-4292-8a5a-a9e384fc1681" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/iterative_sorting/iterative_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/iterative_sorting/iterative_sorting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/recursive_sorting/recursive_sorting.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursive_sorting/recursive_sorting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/recursive_sorting/recursive_sorting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="545">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -333,8 +331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recursive_sorting/recursive_sorting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="545">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>

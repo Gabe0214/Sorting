@@ -4,8 +4,22 @@ def merge( arrA, arrB ):
     # merged_arr = [0] * elements
     # TO-DO
     merged = []
+    l_pointer = 0
+    r_pointer = 0
+    while l_pointer < len(arrA) and r_pointer < len(arrB):
 
-    return merged_arr
+        if arrA[l_pointer] < arrB[r_pointer]:
+            merged.append(arrA[l_pointer])
+            l_pointer += 1
+
+        else:
+            merged.append(arrB[r_pointer])
+            r_pointer += 1
+
+    merged.extend(arrA[l_pointer:])
+    merged.extend(arrB[r_pointer:])
+
+    return merged
 
 
 # TO-DO: implement the Merge Sort function below USING RECURSION
@@ -13,14 +27,14 @@ def merge_sort( arr ):
     # TO-
     # If the array is empty or length 1, return
 
-    length = len(arr)
-    middle_index = length // 2
-    first_half = merge_sort(arr[:middle_index])
-    second_half = merge(arr[middle_index:])
+
 
     if len(arr) <= 1:
         return arr
-
+    length = len(arr)
+    middle_index = length // 2
+    first_half = merge_sort(arr[:middle_index])
+    second_half = merge_sort(arr[middle_index:])
     return merge(first_half, second_half)
 
 
